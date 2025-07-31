@@ -4,6 +4,8 @@ App Store Name: TBD
 
 This document outlines the system design for a digital wardrobe ios app that helps users organize their clothes, create outfits, and virtually try on outfits/individual garments. The app leverages generative AI models to automate tasks such as background removal, clothes tagging, and to make novel features such as virtual try-on possible. Technologies such as React Native (TypeScript), Spring Boot (Java), and Terraform are used as per the developer's personal preference and learning goals.
 
+The social aspect should be minimized. Users should not be aware of other users. For an outfit, a user can save the canvas as a watermarked image and share it on other platforms. The app should remain a utility too
+
 In short, the target users of this app are young people who are fashion-conscious and would like to digitize their wardrobe to better organize their garments and outfits.
 
 ## Features
@@ -29,3 +31,6 @@ In short, the target users of this app are young people who are fashion-consciou
 5. **Infrastructure**: Terraform for Hetzner + AWS
 6. **Testing**: Integration tests and TestFlight publishing
 7. **Launch**: App Store release
+
+## Current Data Models
+Refer to [Foundations](./foundations.md)
